@@ -1,3 +1,20 @@
-.test {
-  color: red;
+.profileCard {
+  width: 600px;
+  height: 585px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.mainInfoContainer {
+}
+.userImg {
+  width: 180px;
+  border-radius: 50%;
+}
+.mainInfoText {
+}
+.userInfoList {
+}
+.infoItem {
+}
+.infoItemText {
 }
