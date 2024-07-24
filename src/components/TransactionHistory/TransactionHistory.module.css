@@ -1,21 +1,33 @@
 .table {
   width: 600px;
   margin: 100px auto;
+  background-color: black;
 }
 
-/* .tableRow {
-  background-color: red;
-} */
+.tableRow {
+  background-color: #ffffff;
+}
 
 .tableRow:nth-child(even) {
   background-color: #d3d3d3;
 }
 
+.text {
+  padding: 5px;
+  font-size: 18px;
+}
+
 .tableTitle {
+  composes: text;
   color: white;
   background-color: #2a2a2a;
 }
 
 .tableCell {
+  composes: text;
   text-align: center;
+}
+
+.tableCell::first-letter {
+  text-transform: uppercase;
 }
