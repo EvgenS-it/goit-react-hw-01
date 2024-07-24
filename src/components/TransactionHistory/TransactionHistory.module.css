@@ -1,0 +1,21 @@
+.table {
+  width: 600px;
+  margin: 100px auto;
+}
+
+/* .tableRow {
+  background-color: red;
+} */
+
+.tableRow:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.tableTitle {
+  color: white;
+  background-color: #2a2a2a;
+}
+
+.tableCell {
+  text-align: center;
+}

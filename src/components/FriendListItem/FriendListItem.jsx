@@ -17,7 +17,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
 FriendListItem.propTypes = {
   name: PropTypes.string.isRequired,
   avatar: PropTypes.string,
-  //   isOnline: PropTypes.boolean,
+  //   isOnline: PropTypes.boolean, (which propType is correct?)
 };
 
 export default FriendListItem;
