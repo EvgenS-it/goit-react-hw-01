@@ -1,10 +1,10 @@
-// import css from './FriendList.module.css';
+import css from './FriendList.module.css';
 import FriendListItem from '../FriendListItem/FriendListItem';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const FriendList = ({ friends }) => {
   return (
-    <ul>
+    <ul className={css.friendsList}>
       {friends.map(friend => {
         return (
           <li key={friend.id}>
@@ -20,12 +20,8 @@ const FriendList = ({ friends }) => {
   );
 };
 
-// FriendList.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   tag: PropTypes.string.isRequired,
-//   location: PropTypes.string,
-//   image: PropTypes.string,
-//   stats: PropTypes.object,
-// };
+FriendList.propTypes = {
+  friends: PropTypes.array.isRequired,
+};
 
 export default FriendList;

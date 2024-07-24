@@ -1,5 +1,6 @@
 .profileCard {
-  margin: 50px auto;
+  margin: 0 auto;
+  margin-bottom: 100px;
   max-width: 600px;
   height: 585px;
   outline: 3px solid #212121;

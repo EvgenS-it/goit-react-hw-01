@@ -1,0 +1,32 @@
+.card {
+  outline: 2px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.cardImg {
+  margin-bottom: 15px;
+}
+
+.cardText {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  margin-bottom: 5px;
+}
+
+.online {
+  composes: cardText;
+  font-weight: 500;
+  color: green;
+  font-size: 20px;
+}
+
+.offline {
+  composes: cardText;
+  font-weight: 500;
+  color: red;
+  font-size: 20px;
+}
